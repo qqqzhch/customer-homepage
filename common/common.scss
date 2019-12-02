@@ -63,3 +63,90 @@
     background-color:#fff;
     color:#000;
 }
+
+  .homehoverbox img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.homehoverbox figcaption {
+  padding: 25px 20px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.homehoverbox figcaption:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  content: '';
+ /* background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  background: -webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);  */
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.homehoverbox .date {
+  background-color: #fff;
+  border-radius: 50%;
+  color: #700877;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 10px 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -25px;
+}
+
+.homehoverbox .date span {
+  display: block;
+  line-height: 14px;
+}
+
+.homehoverbox .date .month {
+  font-size: 11px;
+}
+
+.homehoverbox h3,
+.homehoverbox p {
+  margin: 0;
+  padding: 0;
+}
+
+.homehoverbox h3 {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 5px;
+}
+
+.homehoverbox p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+}
+
+.homehoverbox a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.homehoverbox:hover img,
+.homehoverbox.hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
