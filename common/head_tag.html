@@ -1,3 +1,4 @@
+
 <script type="text/discourse-plugin" version="0.8">
   // This is the plugin outlet, followed by a custom name for the component
   api.registerConnectorClass("below-site-header", "custom-homepage", {
@@ -36,5 +37,15 @@
     
   });
 
+</script>
+
+<script type="text/x-handlebars" data-template-name="/connectors/below-site-header/custom-homepage">
+  {{#if displayCustomHomepage}} 
+    <div class="custom-homepage-wrapper wrap">
+       <div>
+        Welcome to the lambda community
+       </div>
+    </div>
+  {{/if}}
 </script>
 
