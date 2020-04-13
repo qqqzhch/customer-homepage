@@ -1,6 +1,9 @@
 {
   "name": "customer homepage",
   "component": true,
+  "assets": {
+    "asset-variable": "assets/bc.jpg"
+},
   "about_url": "https://bbs.quectel.com",
   "license_url": "https://github.com/aksoforever/customer-homepage/blob/master/LICENSE"
 }
