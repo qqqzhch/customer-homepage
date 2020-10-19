@@ -58,6 +58,19 @@
 
   }
 
+  .menuitem {
+    text-align: center;
+    border: 1px solid #4953e8;
+    margin: 5px;
+    width: 30%;
+    line-height: 30px;
+    margin-bottom: 15px;
+    // display: inline-block;
+    a {
+      display: block;
+    }
+  }
+
 }
 
 #main-outlet{
