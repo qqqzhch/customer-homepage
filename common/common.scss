@@ -58,6 +58,15 @@
 
   }
 
+  .menu {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   .menuitem {
     text-align: center;
     border: 1px solid #4953e8;
