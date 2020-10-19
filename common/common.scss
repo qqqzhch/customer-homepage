@@ -58,27 +58,7 @@
 
   }
 
-  .menu {
-    margin-top: 20px;
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
 
-  .menuitem {
-    text-align: center;
-    border: 1px solid var(--primary-low);
-    margin: 5px;
-    width: 30%;
-    line-height: 30px;
-    margin-bottom: 15px;
-    // display: inline-block;
-    a {
-      display: block;
-    }
-  }
 
 }
 
